@@ -1,10 +1,10 @@
 package com.hyt.hytpay.controller;
 
-import com.icanpay.PaymentSetting;
-import com.icanpay.enums.GatewayTradeType;
-import com.icanpay.enums.GatewayType;
-import com.icanpay.gateways.GatewayBase;
-import com.icanpay.gateways.Gateways;
+import com.hyt.hytpay.enums.GatewayTradeType;
+import com.hyt.hytpay.enums.GatewayType;
+import com.hyt.hytpay.gateways.GatewayBase;
+import com.hyt.hytpay.gateways.Gateways;
+import com.hyt.hytpay.models.PaymentSetting;
 import com.unionpay.acp.sdk.SDKConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

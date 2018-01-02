@@ -1,8 +1,8 @@
 package com.hyt.hytpay.controller;
 
-import com.icanpay.enums.PaymentNotifyMethod;
-import com.icanpay.events.*;
-import com.icanpay.gateways.Gateways;
+import com.hyt.hytpay.enums.PaymentNotifyMethod;
+import com.hyt.hytpay.events.*;
+import com.hyt.hytpay.gateways.Gateways;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
