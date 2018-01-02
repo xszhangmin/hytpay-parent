@@ -26,7 +26,8 @@ public class AlipayGateway extends GatewayBase implements PaymentForm,
 		WapPaymentUrl, AppParams, QueryNow, RefundReq {
 
 	final String payGatewayUrl = "https://mapi.alipay.com/gateway.do";
-	final String openapiGatewayUrl = "https://openapi.alipay.com/gateway.do";
+//	final String openapiGatewayUrl = "https://openapi.alipay.com/gateway.do";
+	final String openapiGatewayUrl = "https://openapi.alipaydev.com/gateway.do";//支付宝沙箱测试网关，正式环境需要换掉
 	final String emailRegexString = "^\\w+([-+.]\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*$";
 	String pageEncoding = "";
 
@@ -212,7 +213,7 @@ public class AlipayGateway extends GatewayBase implements PaymentForm,
 	public AlipayClient getAopClient() {
 		return new DefaultAlipayClient(openapiGatewayUrl, getMerchant()
 				.getAppId(), getMerchant().getPrivateKeyPem(), "json",
-				getCharset(), getMerchant().getPrivateKeyPem(), "RSA");
+				getCharset(), getMerchant().getPublicKeyPem(), "RSA");
 	}
 
 	/**
