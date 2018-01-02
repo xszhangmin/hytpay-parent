@@ -3,7 +3,7 @@ package com.hyt.hytpay.interfaces;
 /**
  * 通过url地址来查询订单
  * 
- * @author milanyangbo
+ * @author zhangmin
  *
  */
 public interface QueryUrl {

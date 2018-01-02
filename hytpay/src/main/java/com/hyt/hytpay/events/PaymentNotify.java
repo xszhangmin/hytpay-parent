@@ -4,8 +4,8 @@ package com.hyt.hytpay.events;
 import com.hyt.hytpay.enums.GatewayType;
 import com.hyt.hytpay.enums.PaymentNotifyMethod;
 import com.hyt.hytpay.gateways.GatewayBase;
-import com.hyt.hytpay.model.Merchant;
-import com.hyt.hytpay.model.NotifyProcess;
+import com.hyt.hytpay.models.Merchant;
+import com.hyt.hytpay.models.NotifyProcess;
 
 import java.util.ArrayList;
 import java.util.List;

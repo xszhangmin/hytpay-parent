@@ -5,8 +5,8 @@ import com.hyt.hytpay.enums.GatewayParameterRequestMethod;
 import com.hyt.hytpay.enums.GatewayTradeType;
 import com.hyt.hytpay.enums.GatewayType;
 import com.hyt.hytpay.enums.PaymentNotifyMethod;
-import com.hyt.hytpay.model.Merchant;
-import com.hyt.hytpay.model.Order;
+import com.hyt.hytpay.models.Merchant;
+import com.hyt.hytpay.models.Order;
 
 import java.util.ArrayList;
 import java.util.List;

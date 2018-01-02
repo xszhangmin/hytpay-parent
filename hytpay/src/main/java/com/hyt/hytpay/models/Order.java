@@ -1,4 +1,4 @@
-package com.hyt.hytpay.model;
+package com.hyt.hytpay.models;
 
 import org.apache.commons.lang3.StringUtils;
 

@@ -1,7 +1,7 @@
 package com.hyt.hytpay.interfaces;
 
 import com.alipay.api.AlipayApiException;
-import com.hyt.hytpay.model.Refund;
+import com.hyt.hytpay.models.Refund;
 
 public interface RefundReq {
 	/**

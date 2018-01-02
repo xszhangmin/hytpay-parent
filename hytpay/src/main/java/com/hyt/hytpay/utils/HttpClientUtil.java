@@ -47,8 +47,8 @@ public class HttpClientUtil {
 		HttpPost httpPost = new HttpPost(url);
 
 		RequestConfig requestConfig = RequestConfig.custom()
-				.setSocketTimeout(ICanPayConfig.getHttpReadTimeoutMs())
-				.setConnectTimeout(ICanPayConfig.getHttpConnectTimeoutMs())
+				.setSocketTimeout(HytPayConfig.getHttpReadTimeoutMs())
+				.setConnectTimeout(HytPayConfig.getHttpConnectTimeoutMs())
 				.build();
 		httpPost.setConfig(requestConfig);
 
@@ -88,8 +88,8 @@ public class HttpClientUtil {
 		HttpGet httpget = new HttpGet(url);
 
 		RequestConfig requestConfig = RequestConfig.custom()
-				.setSocketTimeout(ICanPayConfig.getHttpReadTimeoutMs())
-				.setConnectTimeout(ICanPayConfig.getHttpConnectTimeoutMs())
+				.setSocketTimeout(HytPayConfig.getHttpReadTimeoutMs())
+				.setConnectTimeout(HytPayConfig.getHttpConnectTimeoutMs())
 				.build();
 		httpget.setConfig(requestConfig);
 

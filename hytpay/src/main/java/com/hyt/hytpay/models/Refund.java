@@ -1,4 +1,4 @@
-package com.hyt.hytpay.model;
+package com.hyt.hytpay.models;
 
 import com.hyt.hytpay.utils.Utility;
 

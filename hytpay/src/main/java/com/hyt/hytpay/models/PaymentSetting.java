@@ -1,4 +1,4 @@
-package com.hyt.hytpay.model;
+package com.hyt.hytpay.models;
 
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.EncodeHintType;

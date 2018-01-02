@@ -85,6 +85,18 @@
                 <version>${bcprov-jdk15on.version}</version>
             </dependency>
 
+            <!--pay jars -->
+            <dependency>
+                <groupId>com.alipay</groupId>
+                <artifactId>sdk-java</artifactId>
+                <version>20170829142630</version>
+            </dependency>
+            <dependency>
+                <groupId>com.unionpay</groupId>
+                <artifactId>sdk-java</artifactId>
+                <version>5.0.0</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 

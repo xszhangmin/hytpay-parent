@@ -10,7 +10,6 @@
     <artifactId>hytpay-demo</artifactId>
     <name>hytpay-demo</name>
     <url>http://maven.apache.org</url>
-    <artifactId>hytpay-demo</artifactId>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

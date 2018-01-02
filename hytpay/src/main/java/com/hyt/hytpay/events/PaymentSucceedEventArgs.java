@@ -3,7 +3,7 @@ package com.hyt.hytpay.events;
 
 import com.hyt.hytpay.enums.GatewayType;
 import com.hyt.hytpay.enums.PaymentNotifyMethod;
-import com.hyt.hytpay.model.Order;
+import com.hyt.hytpay.models.Order;
 
 /**
  * 支付成功网关事件数据

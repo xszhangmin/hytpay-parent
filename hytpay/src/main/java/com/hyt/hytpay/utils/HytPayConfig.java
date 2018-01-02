@@ -1,6 +1,6 @@
 package com.hyt.hytpay.utils;
 
-public class ICanPayConfig {
+public class HytPayConfig {
 
 	/**
 	 * HTTP(S) 连接超时时间，单位毫秒

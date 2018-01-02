@@ -5,7 +5,7 @@ import com.hyt.hytpay.enums.PaymentNotifyMethod;
 import com.hyt.hytpay.gateways.GatewayBase;
 import com.hyt.hytpay.gateways.GatewayParameter;
 import com.hyt.hytpay.interfaces.*;
-import com.hyt.hytpay.model.Refund;
+import com.hyt.hytpay.models.Refund;
 import com.hyt.hytpay.utils.Utility;
 import com.unionpay.acp.sdk.AcpService;
 import com.unionpay.acp.sdk.LogUtil;

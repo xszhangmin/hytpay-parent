@@ -4,7 +4,7 @@ package com.hyt.hytpay.gateways;
 import com.hyt.hytpay.enums.GatewayTradeType;
 import com.hyt.hytpay.enums.GatewayType;
 import com.hyt.hytpay.exceptions.GatewayException;
-import com.hyt.hytpay.model.Merchant;
+import com.hyt.hytpay.models.Merchant;
 
 import java.util.ArrayList;
 import java.util.List;
