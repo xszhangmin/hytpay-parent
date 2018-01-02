@@ -60,6 +60,16 @@
             <artifactId>bcprov-jdk15on</artifactId>
         </dependency>
 
+        <!--pay jars -->
+        <dependency>
+            <groupId>com.alipay</groupId>
+            <artifactId>sdk-java</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.unionpay</groupId>
+            <artifactId>sdk-java</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>

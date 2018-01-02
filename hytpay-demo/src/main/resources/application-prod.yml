@@ -1,0 +1,19 @@
+server:
+  port: 8081
+alipay:
+  appid: appid000000000000000
+  partner: 000000000000000
+  seller_email: yourname@address.com
+  key: 000000000000000000000000000000000000000000
+  notifyurl: http://yourwebsite.com/notify/servernotify
+  returnurl: http://yourwebsite.com/notify/autoreturn
+wechatpayment: 
+  appid: appid000000000000000
+  mch_id: 000000000000000
+  key: 000000000000000000000000000000000000000000
+  notifyurl: http://yourwebsite.com/notify/servernotify
+  returnurl: http://yourwebsite.com/notify/autoreturn
+unionpay: 
+  merid: appid000000000000000
+  notifyurl: http://yourwebsite.com/notify/servernotify
+  returnurl: http://yourwebsite.com/notify/autoreturn
