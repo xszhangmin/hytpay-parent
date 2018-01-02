@@ -7,7 +7,7 @@ import java.util.Date;
 /**
  * 订单的金额、编号
  * 
- * @author milanyangbo
+ * @author zhangmin
  *
  */
 public class Order {

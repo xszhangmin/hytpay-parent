@@ -16,7 +16,7 @@ import java.util.TreeMap;
 /**
  * 支付网关的抽象基类
  * 
- * @author milanyangbo
+ * @author zhangmin
  *
  */
 public abstract class GatewayBase {

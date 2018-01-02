@@ -26,7 +26,7 @@ import java.util.Map;
 /**
  * 设置需要支付的订单的数据，创建支付订单URL地址或HTML表单
  * 
- * @author milanyangbo
+ * @author zhangmin
  *
  */
 public class PaymentSetting {

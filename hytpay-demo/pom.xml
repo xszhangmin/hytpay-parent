@@ -10,7 +10,7 @@
     <artifactId>hytpay-demo</artifactId>
     <name>hytpay-demo</name>
     <url>http://maven.apache.org</url>
-    <artifactId>hyppay-demo</artifactId>
+    <artifactId>hytpay-demo</artifactId>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -19,9 +19,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.icanpay</groupId>
-            <artifactId>icanpay</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <groupId>com.hyt.hytpay</groupId>
+            <artifactId>hytpay</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
 
         <dependency>
