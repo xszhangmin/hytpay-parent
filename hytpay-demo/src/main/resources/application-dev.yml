@@ -10,11 +10,11 @@ alipay:
   notifyurl: http://localhost:8081/notify/servernotify
   returnurl: http://localhost:8081/notify/autoreturn
 wechatpayment: 
-  appid: appid000000000000001
-  mch_id: 000000000000000
-  key: sjOI23409nFSDnowmqp93772oqUEHx9o
-  notifyurl: http://yourwebsite.com/notify/servernotify
-  returnurl: http://yourwebsite.com/notify/autoreturn
+  appid: wxab8acb865bb1637e
+  mch_id: 11473623
+  key: 2ab9071b06b9f739b950ddb41db2690d
+  notifyurl: http://localhost:8081/notify/servernotify
+  returnurl: http://localhost:8081/notify/autoreturn
 unionpay: 
   merid: 802440348160649
   notifyurl: http://yourwebsite.com/notify/servernotify

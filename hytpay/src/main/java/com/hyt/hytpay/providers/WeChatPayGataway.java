@@ -23,10 +23,17 @@ import java.util.Map;
 public class WeChatPayGataway extends GatewayBase implements PaymentQRCode,
 		WapPaymentUrl, AppParams, QueryNow, RefundReq {
 
+	//以下是正式环境url，测试环境使用沙箱环境url
 	final String payGatewayUrl = "https://api.mch.weixin.qq.com/pay/unifiedorder";
 	final String queryGatewayUrl = "https://api.mch.weixin.qq.com/pay/orderquery";
 	final String refundGatewayUrl = "https://api.mch.weixin.qq.com/secapi/pay/refund";
 	final String refundqueryGatewayUrl = "https://api.mch.weixin.qq.com/pay/refundquery";
+
+	//以下是沙箱测试url，正式环境需要修改
+//	final String payGatewayUrl = "https://api.mch.weixin.qq.com/sandboxnew/pay/unifiedorder";
+//	final String queryGatewayUrl = "https://api.mch.weixin.qq.com/sandboxnew/pay/orderquery";
+//	final String refundGatewayUrl = "https://api.mch.weixin.qq.com/sandboxnew/secapi/pay/refund";
+//	final String refundqueryGatewayUrl = "https://api.mch.weixin.qq.com/sandboxnew/pay/refundquery";
 
 	/**
 	 * 初始化微信支付网关
@@ -250,7 +257,7 @@ public class WeChatPayGataway extends GatewayBase implements PaymentQRCode,
 	/**
 	 * 获得微信支付的URL
 	 * 
-	 * @param resultString
+	 * @param resultXml
 	 * @return 创建订单返回的数据
 	 * @throws Exception
 	 */
