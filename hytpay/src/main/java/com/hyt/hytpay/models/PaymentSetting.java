@@ -137,6 +137,9 @@ public class PaymentSetting {
 		if (gateway instanceof PaymentForm) {
 			PaymentForm paymentForm = (PaymentForm) gateway;
 			response.getWriter().write(paymentForm.buildPaymentForm());
+			response.setContentType("text/html;charset=utf-8");
+			response.getWriter().flush();
+			response.getWriter().close();
 			return;
 		}
 
@@ -156,19 +159,29 @@ public class PaymentSetting {
 		if (gateway instanceof WapPaymentUrl) {
 			WapPaymentUrl paymentUrl = (WapPaymentUrl) gateway;
 			if (gateway.getGatewayType() == GatewayType.WeChatPay) {
+				response.setContentType("text/html;charset=utf-8");
 				response.getWriter()
 						.write(String
 								.format("<script language='javascript'>window.location='%s'</script>",
 										paymentUrl.buildWapPaymentUrl(map)));
+				response.getWriter().flush();
+				response.getWriter().close();
 			} else {
-				response.sendRedirect(paymentUrl.buildWapPaymentUrl(map));
+				response.setContentType("text/html;charset=utf-8");
+				response.getWriter().write(paymentUrl.buildWapPaymentUrl(map));
+				response.getWriter().flush();
+				response.getWriter().close();
+//				response.sendRedirect(paymentUrl.buildWapPaymentUrl(map));
 			}
 			return;
 		}
 
 		if (gateway instanceof WapPaymentForm) {
 			WapPaymentForm paymentForm = (WapPaymentForm) gateway;
+			response.setContentType("text/html;charset=utf-8");
 			response.getWriter().write(paymentForm.buildWapPaymentForm());
+			response.getWriter().flush();
+			response.getWriter().close();
 			return;
 		}
 
@@ -239,7 +252,6 @@ public class PaymentSetting {
 	/**
 	 * 查询订单，立即获得订单的查询结果
 	 * 
-	 * @param productSet
 	 * @return
 	 * @throws Exception
 	 */

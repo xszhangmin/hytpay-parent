@@ -213,7 +213,7 @@ public class AlipayGateway extends GatewayBase implements PaymentForm,
 	public AlipayClient getAopClient() {
 		return new DefaultAlipayClient(openapiGatewayUrl, getMerchant()
 				.getAppId(), getMerchant().getPrivateKeyPem(), "json",
-				getCharset(), getMerchant().getPublicKeyPem(), "RSA");
+				getCharset(), getMerchant().getPublicKeyPem(), "RSA2");
 	}
 
 	/**

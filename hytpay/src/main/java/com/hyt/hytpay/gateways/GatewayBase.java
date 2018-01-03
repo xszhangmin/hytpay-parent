@@ -34,7 +34,7 @@ public abstract class GatewayBase {
 	/**
 	 * 编码
 	 */
-	String charset = "utf-8";
+	String charset = "UTF-8";
 
 	/**
 	 * 支付类型
